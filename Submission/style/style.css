@@ -73,16 +73,55 @@ main {
 }
 
 /* main content */
+
+main {
+    margin-block: 2rem;
+}
+
 main #content {
     /* border: solid yellow 0.2rem; */
     display: flex;
     flex-direction: column;
     max-width: 70vw;
+
     background-color: rgb(98, 149, 132);
 
     border-radius: 0.5rem;
 
     /* box-shadow: 0.5rem 0.5rem 1.12rem grey; */
+}
+
+main #content article .electricity-section {
+        /* border: solid yellow 0.2rem; */
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0px;
+
+}
+
+main div article section h1 {
+    /* border: solid yellow 0.2rem; */
+    font-size: 5rem;
+    align-self: flex-end;
+
+}
+
+main div article section p {
+    /* border: solid yellow 0.2rem; */
+    
+}
+
+main div article section img {
+    width: 65vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    
+
+    align-self: center;
 }
 
 #content article {
@@ -108,10 +147,10 @@ main aside {
 
 }
 
-main aside p {
+/* main aside p {
     margin: 0;
     
-}
+} */
 
 main aside img {
     /* max-height: 30vh; */
